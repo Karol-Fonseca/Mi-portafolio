@@ -24,7 +24,7 @@ header {
 p{ 
   font-size: 1.15rew
 }
-
+/*Menu*/
 .navbar {
   transition: 0.5s;
   background: transparent !important;
@@ -48,7 +48,7 @@ p{
 .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(104, 8, 8, 0.883);
 }
-
+/*Fondo del banner*/
 .banner {
   position: relative;
   top: 0;
@@ -91,6 +91,7 @@ p{
   height: 100vh;
 }
 
+/*Fondo del podcast*/
 .sec2 {
   position: relative;
   background: url(../imagenes/Vela.JPG);
@@ -98,4 +99,65 @@ p{
   height: 100vh;
 }
 
+/*Contactos*/
+.Contáctame {
+position: relative;
+padding: 100px;
+background: url(../imagenes/Luna.JPG);
+background-size: cover;
+min-height: 100vh;
+}
+.Contáctame form {
+  position: relative;
+  z-index: 1000;
+}
+
+.Contáctame .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(104, 8, 8, 0.883);
+  height: 50px;
+  border-radius: 0;
+  background: rgba(0,0,0,.6);
+  color: #fff;
+}
+
+.Contáctame .form-control:focus,
+.Contáctame .form-control:hover, {
+  border: none;
+  border-bottom: 2px solid rgba(255,255,255,2)
+}
+.Contáctame .textarea {
+  min-height: 100px;
+}
+
+.Contáctame label {
+    color: #fff;
+}
+
+.footer {
+  background: rgba(0,0,0,.6);
+  padding: 50px 0 0;
+}
+
+.sci {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci li {
+  list-style: none;
+  margin: 0 20px;
+}
+.sci li {
+  color: #000;
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+color: #fff;
+}
 
